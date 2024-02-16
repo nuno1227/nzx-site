@@ -1,0 +1,110 @@
+h1 {
+    color: rgb(245, 243, 243);
+}
+
+h2 {
+    color: rgb(245, 243, 243)
+}
+
+a {
+    color: red;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+
+img {
+   width: 100%;
+   max-width: 180px;
+   border-radius: 50%;
+   aspect-ratio: 1/1;
+   object-fit: cover;
+   margin: 2px;
+}
+
+.center {
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    padding: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.right {
+    text-align: center;
+    
+}
+
+
+
+.sobre h1 {
+    text-align: left;
+    color: red;
+    text-decoration:underline
+}
+
+.bv {
+    text-decoration: underline;
+    color: red;
+}
+
+.sobre h2 {
+    text-align: left;
+}
+
+.texto3 h2 {
+    text-align: left;
+}
+
+.projeto h1 {
+    text-align: left;
+    text-decoration: underline;
+    color: red;
+}
+
+.projeto h2 {
+    text-align: left;
+}
+
+.contact h1 {
+    text-align: left;
+    text-decoration: underline;
+    color: red;
+}
+
+.contact h2 {
+    text-align: left;
+}
