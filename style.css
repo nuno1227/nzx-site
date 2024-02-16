@@ -108,3 +108,13 @@ nav a:hover {
 .contact h2 {
     text-align: left;
 }
+
+.contact a {
+    text-align: left;
+    color: white;
+}
+
+.projeto h3 {
+    text-align: left;
+    color: white;
+}
