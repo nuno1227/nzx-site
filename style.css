@@ -1,160 +1,90 @@
-h1 {
-    color: rgb(245, 243, 243);
-  
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-h2 {
-    color: rgb(245, 243, 243)
-}
-
-a {
-    color: red;
-    text-decoration: underline;
-}
-
-h1 {
-    text-align: center;
-}
-h2 {
-    text-align: center;
-}
-
-
-img {
-   width: 100%;
-   padding: 30px;
-   max-width: 180px;
-   border-radius: 50%;
-   aspect-ratio: 1/1;
-   object-fit: cover;
-   margin: 2px;
-}
-
-.center {
-    text-align: center;
-}
-
-body {
+.index {
     background-color: black;
+    background-image: url(https://telegra.ph/file/82fba4424b604e1e6cd46.jpg);
+}
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        width: 350px;
+        height: 530px;
+        background-color: #202020;
+        border-radius: 15px;
+        margin-top: 100px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .imagem {
+        display: flex;
+        justify-content: center;
+    }
+
+    .viagem {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%  ;
+        margin-top: 20px;
+    }
+
+    .text-main {
+        text-align: center;
+        color: #068298;
+        font-weight: 600;
+        font-size: 25px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .desc {
+        font-family: 'Poppins', sans-serif;
+        color: #ffff;
+        font-weight: 300;
+        text-align: center;
+        font-size: 15px;
+    }
+
+   
+
+
+
+.button-1 {
+  background-color: #0c5c6a;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
-nav {
-    padding: 50px;
+.button-1:hover,
+.button-1:focus {
+  background-color: #08404a;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0 10;
-    display: flex;
-    justify-content: center;
-}
-
-nav li {
-    margin: 0 30px;
-}
-
-nav a {
-    color: white;
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: underline;
-    color: red;
-}
-
-.right {
-    text-align: center;
-    
-}
-
-
-
-.sobre h1 {
-    text-align: left;
-    color: red;
-    text-decoration:underline
-}
-
-.bv {
-    text-decoration: underline;
-    color: red;
-}
-
-.sobre h2 {
-    text-align: left;
-}
-
-.texto3 h2 {
-    text-align: left;
-}
-
-.projeto h1 {
-    text-align: center;
-    text-decoration: underline;
-    color: red;
-}
-
-
-.contact h1 {
-    text-align: left;
-    text-decoration: underline;
-    color: red;
-}
-
-.contact h2 {
-    text-align: left;
-}
-
-.contact a {
-    text-align: left;
-    color: white;
-}
-
-
-
-
-.menu-topo {
-    padding: 10px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.menu-topo ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
-.menu-topo li {
-    margin: 0 10px;
-}
-
-.menu-topo a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.menu-topo a:hover {
-    text-decoration: underline;
-}
-
-.pagina li{
-    padding: 10px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    margin: 0;
-}
-
-.pagina a {
-    color: red;
-}
-
-
+    .button {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
